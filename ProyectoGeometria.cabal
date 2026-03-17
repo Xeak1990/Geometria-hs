@@ -1,0 +1,10 @@
+cabal-version: 3.0
+name: ProyectoGeometria
+version: 0.1.0.0
+
+executable ProyectoGeometria
+    main-is: Geometria.hs
+    hs-source-dirs: app
+    build-depends: base, scotty, aeson, text, bytestring, wai, http-types, wai-extra, mtl, exceptions
+    ghc-options: -threaded
+    default-language: Haskell2010

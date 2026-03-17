@@ -1,0 +1,6 @@
+services:
+  proyectogeometria:
+    image: proyectogeometria
+    build:
+      context: .
+      dockerfile: ./Dockerfile
